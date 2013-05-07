@@ -1,0 +1,75 @@
+<$include virtual="inc/header.inc" /$>
+
+<div id="pageContainer">
+	
+
+	<div id="featuredItem">
+		<div class="featuredImage">
+
+			<$region name="featuredImage"$>
+				<img src="images/featuredImage.jpg" alt="" />
+			<$/region$>
+		</div><!--//featuredImage-->
+		<div class="featuredText">
+
+			<$region name="featuredText"$>
+				<h2>How Can We Help You?</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet gravida congue. Proin malesuada dignissim libero, eu commodo nibh consequat quis. Ut elementum, dolor et ornare posuere, urna diam aliquet diam, sit amet vestibulum libero augue tristique magna. Ut elementum, dolor et ornare posuere, urna diam aliquet diam.</p>
+
+				<a class="gold btn uppercase" href="#">About us</a> <a href="#" class="blue btn uppercase">Meet The Doctors</a>
+			
+			<$/region$>
+
+			
+
+		</div><!--//featuredText-->
+		<br class="clear" />
+	</div>
+
+
+	<div id="contentContainer">
+
+		<div id="callOuts">
+			<div id="callOutsTop">
+			<div class="coCol first">
+				<$region name="callOutOne"$>
+				<h2>Emergency?</h2>
+				<p>In case of life threatening emergency please call 911 or go directly to Emergency Room.</p>
+				<$/region$>
+			</div><!--//coCol-->
+			<div class="coCol">
+				<$region name="callOutTwo"$>
+				<h2>After Hours</h2>
+				<p>For other after hours urgent care issues call 630-963-9667 or 630-578-6129 to speak to our on call physicians.</p>
+				<$/region$>
+			</div><!--//coCol-->
+			<div class="coCol last">
+				<$region name="callOutThree"$>
+				<h2>General</h2>
+				<p>For routine issues such as medication refills or appointments please call during regular business hours.</p>
+			<$/region$>
+			</div><!--//coCol-->
+
+			<br class="clear" />
+			</div><!--//callOutsTop-->
+		</div><!--//callOut-->
+
+
+		<div id="mainColumn" class="contents">
+			<$region name="MainContent"$><$/region$>
+		</div><!--//mainColumn-->
+		<div id="subColumn" class="contents">	
+			<$region name="SubColumn"$><$/region$>
+		</div>
+		
+		<br class="clear" />
+
+
+		<div class="oneColumn wrapper">
+			<$region name="oneColumn"$><$/region$>
+		</div><!--//oneColumn-->
+		<br class="clear" />
+	</div><!--//contentContainer-->
+	
+
+<$include virtual="inc/footer.inc" /$>

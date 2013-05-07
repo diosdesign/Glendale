@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<title><$pagetitle/$></title>	
+	
+	<link href="css/style.css" rel="stylesheet" media="all" type="text/css" />	
+	<link href="css/style-contents.css" rel="stylesheet" media="all" type="text/css" />
+	<link href="css/style-template.css" rel="stylesheet" media="all" type="text/css" />	
+	<!--[if IE]>
+		<link href="css/style-ie.css" rel="stylesheet" media="all" type="text/css" />
+	<![endif]-->							
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />		
+</head>
+<body id="homePage" class="noJS">	
+<div id="body" class="twoColumn">	
+
+<ul id="skipTo">
+	<li><a href="#navigation" title="Skip to Navigation" accesskey="n" tabindex="1">Skip to Navigation</a></li>
+	<li><a href="#content" title="Skip to Content" accesskey="c" tabindex="2">Skip to Content</a></li>
+</ul>
+
+
+<div id="header">
+	<div id="navigation">
+		<$globalmenu cssClass="mainNav" showLevels="1" alwaysShowChildren="false" showHome="true"/$>
+		<br class="clear" />
+	</div>
+	
+	<h1 id="logo">
+		<a href="/"><$websitename/$></a>
+		<span class="number">930-963-9667</span>
+	</h1>
+</div>

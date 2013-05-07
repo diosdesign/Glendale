@@ -1,0 +1,79 @@
+/* 
+DIOS DESIGN 
+project - Custom Design APP Projects 
+Author - Jeff Richardson 
+Date - 01/13/12 
+*/
+
+html, body, div, span, applet, object, iframe,
+p, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul, form, label,
+h1, h2, h3, h4, h5, h6, hr, 
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	text-decoration: none;
+	font-size: 100%;
+	font-family: inherit;
+}
+	body { 
+		line-height: 1.5em;	
+		color: black;
+		background: white;
+	}
+	:focus {
+		outline: 0;
+	}	
+	a img {
+		border: 0;
+	}
+
+
+
+/* tables */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+	caption, th, td {
+		text-align: left;
+	}
+
+
+
+/* lists */
+ol, ul {
+	list-style: none;
+}
+
+
+
+/* clearing */
+.clear {
+	clear: both;
+	height: 1px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* hide/show */
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+}
+
+
+
+
+
+@import "style-reset.css";
+@import "style-contents.css";
+@import "style-template.css";
+   
